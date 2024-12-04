@@ -24,13 +24,13 @@
 .contentSection {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 colunas por padrão */
-  gap: 10%; /* Espaçamento entre os cards */
+  gap: 15% 0vw; /* Espaçamento entre os cards */
   padding: 20px;
   justify-items: center; /* Centraliza os cards horizontalmente */
 }
 
 /* Quando a tela for menor que 1200px, ajusta para 2 colunas */
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
   .contentSection {
     grid-template-columns: repeat(2, 1fr); /* 2 colunas */
   }
